@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Products | Ceylon Rice Global</title>
+  <meta name="description" content="Sri Lankan rice product catalogue for wholesale and export inquiries." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Ceylon Rice Global home">
+      <img src="images/favicon.svg" alt="" />
+      <span>Ceylon Rice Global</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html" class="">Home</a>
+<a href="products.html" class="active">Products</a>
+<a href="quality.html" class="">Quality</a>
+<a href="about.html" class="">About</a>
+<a href="contact.html" class="">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container section page">
+  <div class="section-heading">
+    <p class="eyebrow">Rice catalogue</p>
+    <h1>Rice Products</h1>
+    <p>
+      Browse available Sri Lankan rice varieties. For price, minimum order quantity,
+      shipping method, and documents, please request a quotation.
+    </p>
+  </div>
+
+  <div id="product-list" class="product-grid" aria-live="polite"></div>
+
+  <noscript>
+    <p>Please enable JavaScript to load the product catalogue from <code>data/products.json</code>.</p>
+  </noscript>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <p>&copy; 2026 Ceylon Rice Global. All rights reserved.</p>
+    <p>Product data loaded from <code>data/products.json</code>.</p>
+  </div>
+</footer>
+
+<script src="js/products.js"></script>
+</body>
+</html>

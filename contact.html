@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | Ceylon Rice Global</title>
+  <meta name="description" content="Contact Ceylon Rice Global for Sri Lankan rice export inquiries." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Ceylon Rice Global home">
+      <img src="images/favicon.svg" alt="" />
+      <span>Ceylon Rice Global</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html" class="">Home</a>
+<a href="products.html" class="">Products</a>
+<a href="quality.html" class="">Quality</a>
+<a href="about.html" class="">About</a>
+<a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container section page">
+  <div class="section-heading">
+    <p class="eyebrow">Buyer inquiry</p>
+    <h1>Request a Rice Export Quotation</h1>
+    <p>
+      Send your inquiry with rice variety, quantity, packaging size, destination country,
+      and preferred shipping terms.
+    </p>
+  </div>
+
+  <div class="contact-layout">
+    <section class="panel">
+      <h2>Direct Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:yourbusiness@email.com">yourbusiness@email.com</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/94771234567?text=Hello%2C%20I%20am%20interested%20in%20Sri%20Lankan%20rice%20export%20products." target="_blank" rel="noopener">Send WhatsApp Inquiry</a></p>
+      <p class="small-note">
+        Replace the email and WhatsApp number with your actual business contact details.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Inquiry Form</h2>
+      <form id="inquiry-form">
+        <label>
+          Your name
+          <input type="text" id="buyer-name" required />
+        </label>
+
+        <label>
+          Company
+          <input type="text" id="company-name" />
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="buyer-email" required />
+        </label>
+
+        <label>
+          Destination country
+          <input type="text" id="destination-country" required />
+        </label>
+
+        <label>
+          Inquiry details
+          <textarea id="inquiry-details" rows="6" required placeholder="Example: Samba rice, 25 kg bags, 1 container, destination: Australia"></textarea>
+        </label>
+
+        <button class="btn primary" type="submit">Prepare Email Inquiry</button>
+      </form>
+
+      <p class="small-note">
+        This form opens the buyer's email client. Later, FastAPI can replace this with a database-backed inquiry endpoint.
+      </p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <p>&copy; 2026 Ceylon Rice Global. All rights reserved.</p>
+    <p>Static inquiry form. No buyer data is stored on this website.</p>
+  </div>
+</footer>
+
+<script src="js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Rice field and rice grains illustration">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dbe9ce"/>
+      <stop offset="100%" stop-color="#f8f7f2"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#496b2d"/>
+      <stop offset="100%" stop-color="#c99a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1280" cy="150" r="95" fill="#e6bc57" opacity="0.82"/>
+  <path d="M0 550 C320 460 560 650 850 560 C1150 470 1340 500 1600 430 L1600 900 L0 900 Z" fill="url(#field)"/>
+  <path d="M0 680 C350 590 620 760 930 660 C1190 575 1390 610 1600 555 L1600 900 L0 900 Z" fill="#31491f" opacity="0.78"/>
+  <g opacity="0.56" stroke="#fff5c7" stroke-width="8" stroke-linecap="round">
+    <path d="M1040 310 C1080 390 1105 455 1150 535"/>
+    <path d="M1100 300 C1130 395 1165 470 1215 555"/>
+    <path d="M1165 305 C1190 390 1230 485 1285 565"/>
+    <path d="M1230 330 C1265 420 1305 490 1370 575"/>
+  </g>
+</svg>

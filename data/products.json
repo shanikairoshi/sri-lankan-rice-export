@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Sri Lankan Samba Rice",
+    "type": "Samba",
+    "origin": "Sri Lanka",
+    "packaging": [
+      "5 kg",
+      "10 kg",
+      "25 kg",
+      "50 kg"
+    ],
+    "description": "Premium Sri Lankan Samba rice suitable for wholesale, retail, and food-service export inquiries.",
+    "image": "images/samba-rice.svg"
+  },
+  {
+    "id": 2,
+    "name": "Sri Lankan Red Rice",
+    "type": "Red Rice",
+    "origin": "Sri Lanka",
+    "packaging": [
+      "5 kg",
+      "10 kg",
+      "25 kg",
+      "50 kg"
+    ],
+    "description": "Traditional Sri Lankan red rice available for selected buyer, distributor, and retail requirements.",
+    "image": "images/red-rice.svg"
+  },
+  {
+    "id": 3,
+    "name": "Sri Lankan Nadu Rice",
+    "type": "Nadu",
+    "origin": "Sri Lanka",
+    "packaging": [
+      "5 kg",
+      "10 kg",
+      "25 kg",
+      "50 kg"
+    ],
+    "description": "Nadu rice available for retail, wholesale, and bulk supply inquiries.",
+    "image": "images/nadu-rice.svg"
+  },
+  {
+    "id": 4,
+    "name": "Sri Lankan Keeri Samba Rice",
+    "type": "Keeri Samba",
+    "origin": "Sri Lanka",
+    "packaging": [
+      "1 kg",
+      "5 kg",
+      "10 kg",
+      "25 kg"
+    ],
+    "description": "Aromatic Sri Lankan rice variety suitable for premium buyer inquiries.",
+    "image": "images/keeri-samba-rice.svg"
+  }
+]
